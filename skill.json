@@ -1,0 +1,35 @@
+{
+  "name": "genpark-agentic-commerce-optimization-product-catalog-ready-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Agentic Commerce Optimization (ACO) catalog transformer structuring e-commerce inventories for autonomous AI shopping agent discovery and zero-click purchasing.",
+  "author": "genpark",
+  "category": "agentic-commerce",
+  "tags": [
+    "agentic-commerce",
+    "aco-optimization",
+    "ai-shopping-agent",
+    "zero-click-checkout",
+    "refibuy"
+  ],
+  "inputs": {
+    "raw_product_payload": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "product_sku": {
+      "type": "string"
+    },
+    "agentic_search_readiness_score": {
+      "type": "number"
+    },
+    "llm_context_token_efficiency_pct": {
+      "type": "number"
+    },
+    "zero_click_buying_enabled": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
